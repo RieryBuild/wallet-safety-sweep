@@ -1,0 +1,118 @@
+{
+  "address": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+  "chain": "bsc",
+  "chainId": 56,
+  "chainName": "BNB Smart Chain",
+  "rpc": "https://bsc-dataseed.binance.org/",
+  "blockNumber": "134616382",
+  "nativeBalance": "0x25c400add131c69",
+  "nativeBalanceFormatted": "0.170081301336104041",
+  "nativeSymbol": "BNB",
+  "explorer": "https://bscscan.com",
+  "delegated": "0x5a7fc11397e9a8ad41bf10bf13f22b0a63f96f6d",
+  "isContract": false,
+  "balances": [
+    {
+      "token": {
+        "address": "0x55d398326f99059fF775485246999027B3197955",
+        "symbol": "USDT",
+        "decimals": 18
+      },
+      "balance": "1225471001558912395507",
+      "balanceFormatted": "1225.471001558912395507"
+    },
+    {
+      "token": {
+        "address": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d",
+        "symbol": "USDC",
+        "decimals": 18
+      },
+      "balance": "48537246995308665046",
+      "balanceFormatted": "48.537246995308665046"
+    },
+    {
+      "token": {
+        "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+        "symbol": "WBNB",
+        "decimals": 18
+      },
+      "balance": "9590901285757",
+      "balanceFormatted": "0.000009590901285757"
+    },
+    {
+      "token": {
+        "address": "0xe9e7CEA3DedcA5984780Bafc599bD69aDD087D56",
+        "symbol": "BUSD",
+        "decimals": 18
+      },
+      "balance": "173128129422260395",
+      "balanceFormatted": "0.173128129422260395"
+    },
+    {
+      "token": {
+        "address": "0x1AF3F329e8BE154074D8769D1fFa4eE058B1DBc3",
+        "symbol": "DAI",
+        "decimals": 18
+      },
+      "balance": "0",
+      "balanceFormatted": "0"
+    },
+    {
+      "token": {
+        "address": "0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82",
+        "symbol": "CAKE",
+        "decimals": 18
+      },
+      "balance": "585199553472294659",
+      "balanceFormatted": "0.585199553472294659"
+    },
+    {
+      "token": {
+        "address": "0x2170Ed0880ac9A755fd29B2688956BD959F933F8",
+        "symbol": "ETH",
+        "decimals": 18
+      },
+      "balance": "196515666498385674",
+      "balanceFormatted": "0.196515666498385674"
+    },
+    {
+      "token": {
+        "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+        "symbol": "BTCB",
+        "decimals": 18
+      },
+      "balance": "11129006372876",
+      "balanceFormatted": "0.000011129006372876"
+    },
+    {
+      "token": {
+        "address": "0xc5f0f7b66764F6ec8c8Dff7Ba683102295E16409",
+        "symbol": "FDUSD",
+        "decimals": 18
+      },
+      "balance": "0",
+      "balanceFormatted": "0"
+    },
+    {
+      "token": {
+        "address": "0x14016E85a25aeb13065688CaFb43044C2eF86784",
+        "symbol": "TUSD",
+        "decimals": 18
+      },
+      "balance": "0",
+      "balanceFormatted": "0"
+    }
+  ],
+  "allowances": [],
+  "findings": [
+    {
+      "severity": "critical",
+      "code": "EIP7702_DELEGATED",
+      "title": "EOA is delegated to a contract (EIP-7702)",
+      "detail": "Code is 0xef0100 + 0x5a7fc11397e9a8ad41bf10bf13f22b0a63f96f6d. This EOA's execution is delegated to a contract — its code runs as your wallet, so a bug or a malicious upgrade in it can drain the account. Treat the wallet as compromised until the delegation is cleared (set it back to an empty delegation or one you control).",
+      "delegate": "0x5a7fc11397e9a8ad41bf10bf13f22b0a63f96f6d"
+    }
+  ],
+  "score": 40,
+  "grade": "RISKY"
+}
